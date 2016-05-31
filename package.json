@@ -1,0 +1,25 @@
+{
+  "name": "book-share",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "4.4.3"
+  },
+  "keywords": [],
+  "author": "soirana",
+  "license": "ISC",
+  "description": "book sharing application for fcc",
+  "dependencies": {
+    "body-parser": "1.15.1",
+    "connect-ensure-login": "0.1.1",
+    "cookie-parser": "1.4.3",
+    "express": "4.13.4",
+    "express-session": "1.13.0",
+    "nedb": "1.8.0",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0"
+  }
+}

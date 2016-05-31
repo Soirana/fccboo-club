@@ -1,0 +1,61 @@
+body{background: url("bookshelf.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+
+.searchin{
+	font-size: 2vw;
+	width: 30%;
+}
+.searchbut{
+	font-size: 2vw;
+	width: 10%;
+}
+p{  font-size: 2vw;
+	background-color: rgba(255,127,80,0.6);
+}
+
+
+.cover{
+	width: 10%;
+	height: auto;
+	float: left;
+	margin-top: 2%;
+	
+}
+
+.booklist{
+	width: 90%;
+	display: inline-block;
+	float: none;
+	margin-left: 5%;
+}
+.descr{
+	width:70%;
+	float: left;
+}
+.addBut{
+	width: 5%;
+	height: 10vh;
+	vertical-align: center;
+	line-height: 10%;
+	margin-top: 2%;
+
+}
+
+.button{
+        margin-right: 1.3vw; 
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        text-decoration: none;
+        color: initial; 
+        font-size: 5vh;
+    }
+.outs{
+        text-align:center;
+        margin:auto;
+              }

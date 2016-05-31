@@ -1,0 +1,44 @@
+body { background: url("req.jpg") no-repeat center center fixed; 
+             -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover; }   
+
+.button{
+		margin-right: 1.3vw; 
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        text-decoration: none;
+        color: initial; 
+        font-size: 5vh;
+    }
+.outs{
+		text-align:center;
+        margin:auto;
+              }
+
+span{
+    background-color: rgba(40,240,40,0.7);
+    font-size: 2.5vw;
+}
+.wrapper{
+    display: inline;
+}
+.cover{ width:10%;
+    
+}
+.over{
+    width: 10%;
+    margin-left: -10%;
+    font-size: 2vw;
+}
+.double{
+    position: absolute;
+    width: 10%;
+    margin-left: -10%;
+    font-size: 2vw;
+}
+.invisible{
+    display: none;
+}

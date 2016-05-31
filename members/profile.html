@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>profile</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <script type="text/javascript" src="profile.js"></script>
+  <style>
+      body { background: url("/members/profile.jpg") no-repeat center center fixed; 
+             -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover; }
+      button{
+        margin-top: 4vh;
+      }
+      span{
+        background-color: magenta;
+      }
+
+     .button{
+        margin-right: 1.3vw; 
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        text-decoration: none;
+        color: initial; 
+        font-size: 5vh;
+    }
+    .outs{
+        text-align:center;
+        margin:auto;
+              }
+  </style>
+  </head>
+  <body>
+  <div class = 'outs'>
+          <a href="/members/allbooks.html" class="button">Books</a>
+          <a href="/members/books.html" class="button">My books</a>
+          <a href="/members/booksearch.html" class="button">Add a book</a>
+          <a href="/members/requests.html" class="button">Handle requests </a>
+          <a href="/logout" class="button">Log out</a>
+  </div>
+    <p id="nameOrig">Name: </p>
+    <input type="text" id="name" placeholder="write new value">
+    <p id="emailOrig">email: </p>
+    <p id="countryOrig"> Country: </p>
+    <input type="text" id="country" placeholder="write new value">
+    <p id="regionOrig">Region/State: </p>
+    <input type="text" id="region" placeholder="write new value">
+    <p id="cityOrig">City: </p>
+    <input type="text" id = "city" placeholder="write new value">
+    <br/>
+    <button id= "updater">Update profile</button>
+  </body>
+</html>
