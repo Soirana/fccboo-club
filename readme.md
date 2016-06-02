@@ -1,4 +1,4 @@
-### Stock charts 
+### Book club
 By Soirana
 
 For [freeCodeCamp](http://freecodecamp.com) - [Manage a Book Trading Club](https://www.freecodecamp.com/challenges/manage-a-book-trading-club)
